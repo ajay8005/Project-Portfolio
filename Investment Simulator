@@ -1,38 +1,49 @@
-# [📈 S&P 500 Investment Simulator](https://ajay-sharma.shinyapps.io/InvestmentSimulator/)
+# [📈 S&P 500 Investment Simulator](https://your-web-app-url.com)
 
-## Overview
-The **[S&P 500 Investment Simulator](https://ajay-sharma.shinyapps.io/InvestmentSimulator/)** is an interactive Shiny web application designed to explore historical S&P 500 data and simulate portfolio growth based on customizable investment parameters. The app provides insights into historical trends, multi-year returns, and portfolio outcomes using Monte Carlo simulations, helping users make data-driven investment decisions.
+## 📈 Overview
+
+The **[S&P 500 Investment Simulator](https://your-web-app-url.com)** is an interactive Shiny web application designed to explore historical S&P 500 data and simulate portfolio growth based on customizable investment parameters. The app provides insights into historical trends, multi-year returns, and portfolio outcomes using Monte Carlo simulations, helping users make data-driven investment decisions.
 
 ---
 
-## Features
+## 🔧 Features
 
-### Historical Data Exploration
-- Visualize daily closing prices of the S&P 500 for any time range between 1928 and 2023.
-- Choose between **linear** and **logarithmic** scales to analyze trends and highlight growth rates.
+### 1. Historical Data Exploration
+- Visualize daily closing prices of the S&P 500 for any time range between **1928 and 2023**.
+- Select custom date ranges using an intuitive slider.
+- Choose between **linear** and **logarithmic** scales to analyze growth trends effectively.
 
-### Multi-Year Returns Analysis
-- Calculate annualized returns for user-defined intervals (e.g., 5 or 10 years).
-- Display positive and negative return periods in an interactive bar chart.
-- Optionally overlay statistical metrics like **mean**, **median**, and **standard deviation**.
+### 2. Multi-Year Returns Analysis
+- Calculate annualized returns over custom intervals (e.g., 5 or 10 years).
+- View positive and negative return periods in an interactive bar chart.
+- Overlay optional statistical metrics like **mean**, **median**, and **standard deviation** to gain deeper insights.
 
-### Monte Carlo Portfolio Simulation
-- Simulate portfolio growth over a custom number of years with inputs for:
+### 3. Monte Carlo Portfolio Simulation
+- Simulate portfolio growth using the following customizable inputs:
   - Initial investment amount.
   - Periodic contributions (e.g., monthly or yearly).
-  - Average annual return and volatility.
-  - Number of simulations and random seed for reproducibility.
-- Visualize multiple portfolio trajectories to explore uncertainty and potential outcomes.
+  - Average annual return and annual volatility (in percentages).
+  - Number of simulations to run and a random seed for reproducibility.
+  - Investment duration (in years).
+- Visualize simulated portfolio trajectories to explore potential future outcomes and uncertainty.
 
-### Summary Statistics
-- View key summary statistics for simulated portfolio outcomes, including:
+### 4. Summary Statistics
+- Analyze key metrics of simulated portfolio outcomes, including:
   - Percentiles (10th, 25th, 75th, and 90th).
   - Median and mean.
-  - Standard deviation for assessing portfolio risk.
+  - Standard deviation to understand portfolio risk.
 
-### Mathematical Definitions
-- Review detailed formulas used in the app (e.g., portfolio growth, cumulative distribution function, and standard deviation) under the **Definitions** tab.
+### 5. Mathematical Definitions
+- A dedicated **Definitions** tab explains key financial formulas used in the app, including:
+  - Portfolio growth formula.
+  - Quantile (percentile) formula with the cumulative distribution function (\( \Phi(x) \)).
+  - Standard deviation for measuring portfolio volatility.
 
 ---
 
-## Code: To view the R source code, please feel free to email me at ajay.sharma@berkeley.edu
+## 🛠️ Installation and Usage
+
+### 1. Clone the Repository
+```bash
+git clone https://github.com/your-username/sp500-investment-simulator.git
+cd sp500-investment-simulator
