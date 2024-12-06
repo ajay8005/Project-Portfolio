@@ -1,0 +1,38 @@
+# [📈 S&P 500 Investment Simulator](https://ajay-sharma.shinyapps.io/InvestmentSimulator/)
+
+## Overview
+The **[S&P 500 Investment Simulator](https://ajay-sharma.shinyapps.io/InvestmentSimulator/)** is an interactive Shiny web application designed to explore historical S&P 500 data and simulate portfolio growth based on customizable investment parameters. The app provides insights into historical trends, multi-year returns, and portfolio outcomes using Monte Carlo simulations, helping users make data-driven investment decisions.
+
+---
+
+## Features
+
+### Historical Data Exploration
+- Visualize daily closing prices of the S&P 500 for any time range between 1928 and 2023.
+- Choose between **linear** and **logarithmic** scales to analyze trends and highlight growth rates.
+
+### Multi-Year Returns Analysis
+- Calculate annualized returns for user-defined intervals (e.g., 5 or 10 years).
+- Display positive and negative return periods in an interactive bar chart.
+- Optionally overlay statistical metrics like **mean**, **median**, and **standard deviation**.
+
+### Monte Carlo Portfolio Simulation
+- Simulate portfolio growth over a custom number of years with inputs for:
+  - Initial investment amount.
+  - Periodic contributions (e.g., monthly or yearly).
+  - Average annual return and volatility.
+  - Number of simulations and random seed for reproducibility.
+- Visualize multiple portfolio trajectories to explore uncertainty and potential outcomes.
+
+### Summary Statistics
+- View key summary statistics for simulated portfolio outcomes, including:
+  - Percentiles (10th, 25th, 75th, and 90th).
+  - Median and mean.
+  - Standard deviation for assessing portfolio risk.
+
+### Mathematical Definitions
+- Review detailed formulas used in the app (e.g., portfolio growth, cumulative distribution function, and standard deviation) under the **Definitions** tab.
+
+---
+
+## Code: To view the R source code, please feel free to email me at ajay.sharma@berkeley.edu
