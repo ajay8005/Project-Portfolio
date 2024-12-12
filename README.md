@@ -52,57 +52,7 @@ The **[S&P 500 Investment Simulator](https://ajay-sharma.shinyapps.io/Investment
 
 ---
 
-## Project 2: 
-
-## 🔍 Overview
-
-The **[Harry Potter Text Analysis App](https://ajay-sharma.shinyapps.io/app2/)** allows interested folks to explore the Harry Potter series from a data-driven perspective. This interactive Shiny app allows users to analyze sentiment, compute TF-IDF scores, and explore word frequencies across chapters and books.  Furthermore, it provides insights into the themes, emotions, and unique word patterns within the Harry Potter series.
-
----
-
-## 🔧 Features
-
-### 1. TF-IDF Analysis
-- Calculate the importance of words in a chapter or book relative to the entire series using **TF-IDF (Term Frequency-Inverse Document Frequency)**.
-- **Customizable Options**:
-  - Analyze by **chapter** or **book**.
-  - Select the **number of top words** to display (e.g., Top 10, Top 50).
-  - Option to remove common stopwords (e.g., "the," "and") for cleaner analysis.
-- **Outputs**:
-  - Interactive bar charts for visualizing TF-IDF scores.
-  - Detailed tables listing the most relevant words along with their scores.
-
-### 2. Sentiment Analysis
-- Perform sentiment analysis on chapters or books using multiple sentiment lexicons.
-- **Supported Lexicons**:
-  - **Bing**: Classifies words as positive or negative.
-  - **NRC**: Maps words to emotions like joy, sadness, anger, and fear.
-  - **Afinn**: Assigns intensity scores (-5 to +5) to words based on sentiment.
-  - **Loughran**: Focused on financial text, categorizing words into positive, negative, uncertainty, and more.
-- **Outputs**:
-  - Interactive bar charts displaying sentiment scores for each chapter or book.
-  - Dynamic tables summarizing sentiment scores and classifications (positive, negative, or neutral).
-
-### 3. Customizable Inputs
-- Select any specific book or analyze all books collectively.
-- Filter tokens with or without stopwords.
-- Adjust the number of chapters displayed for sentiment and TF-IDF analysis.
-
-### 4. Mathematical Definitions
-- A dedicated **Definitions** tab explains the following:
-  - **TF (Term Frequency)**: Measures how frequently a term appears in a document.
-  - **IDF (Inverse Document Frequency)**: Quantifies how unique a term is across documents.
-  - **TF-IDF**: Combines TF and IDF to score a word's relevance.
-  - **Sentiment Scoring**: Describes how sentiment is calculated for each lexicon (e.g., Bing, NRC, Afinn).
-
-## 📂 Data Sources
-- **Harry Potter Text Data**: Preprocessed text from all seven Harry Potter books.
-- **Sentiment Lexicons**:
-  - **Bing, NRC, Afinn, Loughran** lexicons for sentiment analysis.
-
----
-
-# Project 3: California Crash Data
+# Project 2: California Crash Data EDA
 
 ## 🔍 Overview
 
@@ -156,5 +106,57 @@ The **[California Crash Data Explorer](https://ajay-sharma.shinyapps.io/app3/)**
    - Bar charts showing how crashes vary by weekday, with severity comparisons.
 3. **Interactive Map**:
    - Visualize crash locations with customizable filters for counties and collision types.
+
+---
+
+## Project 3: Harry Potter Text Sentiment Analysis
+
+## 🔍 Overview
+
+The **[Harry Potter Text Analysis App](https://ajay-sharma.shinyapps.io/app2/)** allows interested folks to explore the Harry Potter series from a data-driven perspective. This interactive Shiny app allows users to analyze sentiment, compute TF-IDF scores, and explore word frequencies across chapters and books.  Furthermore, it provides insights into the themes, emotions, and unique word patterns within the Harry Potter series.
+
+---
+
+## 🔧 Features
+
+### 1. TF-IDF Analysis
+- Calculate the importance of words in a chapter or book relative to the entire series using **TF-IDF (Term Frequency-Inverse Document Frequency)**.
+- **Customizable Options**:
+  - Analyze by **chapter** or **book**.
+  - Select the **number of top words** to display (e.g., Top 10, Top 50).
+  - Option to remove common stopwords (e.g., "the," "and") for cleaner analysis.
+- **Outputs**:
+  - Interactive bar charts for visualizing TF-IDF scores.
+  - Detailed tables listing the most relevant words along with their scores.
+
+### 2. Sentiment Analysis
+- Perform sentiment analysis on chapters or books using multiple sentiment lexicons.
+- **Supported Lexicons**:
+  - **Bing**: Classifies words as positive or negative.
+  - **NRC**: Maps words to emotions like joy, sadness, anger, and fear.
+  - **Afinn**: Assigns intensity scores (-5 to +5) to words based on sentiment.
+  - **Loughran**: Focused on financial text, categorizing words into positive, negative, uncertainty, and more.
+- **Outputs**:
+  - Interactive bar charts displaying sentiment scores for each chapter or book.
+  - Dynamic tables summarizing sentiment scores and classifications (positive, negative, or neutral).
+
+### 3. Customizable Inputs
+- Select any specific book or analyze all books collectively.
+- Filter tokens with or without stopwords.
+- Adjust the number of chapters displayed for sentiment and TF-IDF analysis.
+
+### 4. Mathematical Definitions
+- A dedicated **Definitions** tab explains the following:
+  - **TF (Term Frequency)**: Measures how frequently a term appears in a document.
+  - **IDF (Inverse Document Frequency)**: Quantifies how unique a term is across documents.
+  - **TF-IDF**: Combines TF and IDF to score a word's relevance.
+  - **Sentiment Scoring**: Describes how sentiment is calculated for each lexicon (e.g., Bing, NRC, Afinn).
+
+## 📂 Data Sources
+- **Harry Potter Text Data**: Preprocessed text from all seven Harry Potter books.
+- **Sentiment Lexicons**:
+  - **Bing, NRC, Afinn, Loughran** lexicons for sentiment analysis.
+
+---
 
 
