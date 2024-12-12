@@ -101,3 +101,68 @@ The **[Harry Potter Text Analysis App](https://ajay-sharma.shinyapps.io/app2/)**
   - **Bing, NRC, Afinn, Loughran** lexicons for sentiment analysis.
 
 ---
+
+# Project 3: California Crash Data
+
+## 🔍 Overview
+
+The **California Crash Data Explorer** is an interactive Shiny application that provides insights into crash incidents across California for the years 2021–2022. This app empowers users to explore patterns in collision data, visualize geographic trends, and analyze crash characteristics, enabling a better understanding of accident severity, timing, and causes. With customizable filters, users can drill down into specific counties, time ranges, and violation categories.
+
+---
+
+## 🔧 Features
+
+### 1. Data Exploration
+- Analyze crash trends over time and across different severity levels.
+- **Customizable Filters**:
+  - Select specific counties, time ranges, and types of violations (e.g., "Unsafe Speed" or "Improper Turning").
+  - Filter data by time of day using a slider for **hour of occurrence**.
+- **Outputs**:
+  - Interactive bar charts visualizing crash counts by year and day of the week.
+  - A dynamic data table summarizing collisions with details like date, severity, and violation type.
+
+### 2. Geographic Mapping
+- Visualize crash locations on an interactive map with clustering for easier navigation.
+- **Customizable Filters**:
+  - Select specific counties and collision types for focused mapping.
+- **Outputs**:
+  - Interactive Leaflet map showing crash points with labels for type, date, and location.
+  - Color-coded markers based on violation categories (e.g., "Unsafe Speed," "Improper Passing").
+
+### 3. Dynamic Data Table
+- View a detailed table of crash incidents with columns for:
+  - **Date**: The date of the crash.
+  - **County** and **City**: Location of the crash.
+  - **Severity**: Levels like "Fatal" or "Minor Injury."
+  - **Number of Injuries and Fatalities**: Metrics to quantify the crash’s impact.
+  - **Violation Category**: Description of the primary cause of the crash.
+
+---
+
+## 📂 Data Sources
+- **Crash Data**: Preprocessed California crash data from 2021–2022 (reduced dataset provided in `reduced_crashes.csv`).
+- **Libraries Used**:
+  - `shiny`: For building the interactive user interface.
+  - `leaflet`: For map visualizations.
+  - `plotly`: For creating interactive bar charts.
+  - `DT`: For displaying and interacting with crash data tables.
+  - `tidyverse`: For data manipulation and cleaning.
+  - `lubridate`: For handling date-based filtering.
+
+---
+
+## 📊 Key Visualizations
+1. **Yearly Crash Counts by Severity**:
+   - Bar charts grouped by severity (e.g., "Fatal," "Injury") for each year.
+2. **Crash Counts by Day of the Week**:
+   - Bar charts showing how crashes vary by weekday, with severity comparisons.
+3. **Interactive Map**:
+   - Visualize crash locations with customizable filters for counties and collision types.
+
+---
+
+## 💻 How to Use
+1. **Clone Repository**:
+   ```bash
+   git clone <repository-link>
+
