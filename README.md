@@ -3,7 +3,7 @@ This repository contains interactive web applications (web apps) built using R a
 
 1. **[S&P 500 Investment Simulator](https://ajay-sharma.shinyapps.io/InvestmentSimulator/)** - Explore historical S&P 500 trends and simulate portfolio growth using Monte Carlo simulations.
 2. **[California Crash Data Explorer](https://ajay-sharma.shinyapps.io/app3/)** - Analyze California crash data (2021–2022) with an interactive Shiny app. Visualize crash trends, map collision locations, and filter by severity, violation type, and time of occurrence.
-3. **[Harry Potter Text Sentiment Analysis](https://ajay-sharma.shinyapps.io/app2/)** - Explore the Harry Potter series using advanced text mining techniques. Perform sentiment analysis, compute TF-IDF scores, and analyze word frequencies across books and chapte
+3. **[Harry Potter Text Sentiment Analysis](https://ajay-sharma.shinyapps.io/app2/)** - Explore the Harry Potter series using advanced text mining techniques. Perform sentiment analysis, compute TF-IDF scores, and analyze word frequencies across books and chapters.
 
 
 
