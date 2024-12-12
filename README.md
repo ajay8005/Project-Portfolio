@@ -137,7 +137,6 @@ The **California Crash Data Explorer** is an interactive Shiny application that 
   - **Number of Injuries and Fatalities**: Metrics to quantify the crash’s impact.
   - **Violation Category**: Description of the primary cause of the crash.
 
----
 
 ## 📂 Data Sources
 - **Crash Data**: Preprocessed California crash data from 2021–2022 (reduced dataset provided in `reduced_crashes.csv`).
@@ -149,7 +148,6 @@ The **California Crash Data Explorer** is an interactive Shiny application that 
   - `tidyverse`: For data manipulation and cleaning.
   - `lubridate`: For handling date-based filtering.
 
----
 
 ## 📊 Key Visualizations
 1. **Yearly Crash Counts by Severity**:
