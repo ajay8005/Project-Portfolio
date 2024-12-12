@@ -159,10 +159,4 @@ The **California Crash Data Explorer** is an interactive Shiny application that 
 3. **Interactive Map**:
    - Visualize crash locations with customizable filters for counties and collision types.
 
----
-
-## 💻 How to Use
-1. **Clone Repository**:
-   ```bash
-   git clone <repository-link>
 
