@@ -52,7 +52,7 @@ The **[S&P 500 Investment Simulator](https://ajay-sharma.shinyapps.io/Investment
 
 ---
 
-# Project 2: California Crash Data EDA
+## Project 2: California Crash Data EDA
 
 ## 🔍 Overview
 
