@@ -1,3 +1,6 @@
+## Machine Learning Background: [Stat 154: Modern Statistical Prediction & Machine Learning](https://stat154.berkeley.edu/fall-2024/)
+---
+
 ## 🌐 Other Projects: Web Apps
 This repository contains interactive web applications (web apps) built using R and Shiny. Each app has a live URL you can visit to explore its features. Below is a list of the projects available:
 
@@ -6,12 +9,9 @@ This repository contains interactive web applications (web apps) built using R a
 3. **[Harry Potter Text Sentiment Analysis](https://ajay-sharma.shinyapps.io/app2/)** - Explore the Harry Potter series using advanced text mining techniques. Perform sentiment analysis, compute TF-IDF scores, and analyze word frequencies across books and chapters.
 
 
-
 ### Source Code
 If you would like access to the source code for any of these apps, please email me at **[ajay.sharma@berkeley.edu](mailto:ajay.sharma@berkeley.edu)**.
 
----
-### Machine Learning Background: [Stat 154: Modern Statistical Prediction & Machine Learning](https://stat154.berkeley.edu/fall-2024/)
 ---
 
 ## Project 1: S&P 500 Investment Simulator
