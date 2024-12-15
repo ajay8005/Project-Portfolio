@@ -10,7 +10,7 @@ This repository contains interactive web applications (web apps) built using R a
 If you would like access to the source code for any of these apps, please email me at **[ajay.sharma@berkeley.edu](mailto:ajay.sharma@berkeley.edu)**.
 
 ---
-## Machine Learning Background: [Stat 154: Modern Statistical Prediction & Machine Learning](https://stat154.berkeley.edu/fall-2024/)
+### Machine Learning Background: [Stat 154: Modern Statistical Prediction & Machine Learning](https://stat154.berkeley.edu/fall-2024/)
 ---
 
 
