@@ -1,6 +1,6 @@
 ---
 ### Relevant Course 1: [Stat 154: Modern Statistical Prediction & Machine Learning](https://stat154.berkeley.edu/fall-2024/)
-### Relevant Course 2: [Data 100: Principles & Techniques of Data Science](https://ds100.org/fa24/))
+### Relevant Course 2: [Data 100: Principles & Techniques of Data Science](https://ds100.org/fa24/)
 ---
 
 ## 🌐 Other Projects: Web Apps
